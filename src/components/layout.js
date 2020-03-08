@@ -89,11 +89,8 @@ const TemplateWrapper = ({ children }) => {
               <div className="mobile-header">
                 <div className="mobile-header__menu">
                   <a
-                    href="#"
-                    onClick={e => {
-                      e.preventDefault();
-                      setShowMenu(!showMenu);
-                    }}
+                    href="https://cafe02.netlify.com"
+                    
                   />
                 </div>
                 <div className="mobile-header__logo">
